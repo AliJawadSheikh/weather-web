@@ -1,16 +1,19 @@
 {
-  "name": "web-server",
-  "version": "1.0.0",
-  "description": "Getting Started with ExpressJS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ali Jawad",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.1",
-    "hbs": "^4.2.0",
-    "request": "^2.88.2"
-  }
+    "name": "web-server",
+    "version": "1.0.0",
+    "description": "Getting Started with ExpressJS",
+    "main": "index.js",
+    "engines": {
+        "node": "16.1.0"
+    },
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "author": "Ali Jawad",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.1",
+        "hbs": "^4.2.0",
+        "request": "^2.88.2"
+    }
 }
